@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IronSkydive</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700" rel="stylesheet">
 </head>
+
+
 <body>
-  <nav>
+  <nav class="nav-bar">
     <ul>
       <a href="#structure">Day Structure</a>
       <a href="#team">Team</a> 
@@ -15,29 +19,31 @@
     </ul>
   </nav>
 
-  <header>
-    <img src="https://previews.123rf.com/images/yupiramos/yupiramos1608/yupiramos160803678/60613403-paracaidismo-deportivo-icono-de-ilustraci%C3%B3n-vectorial-dise%C3%B1o-extremo.jpg" alt="IronSkydive-logo" /> 
+  <header class="header">
+    
   
-   <h1> IronSkydive</h1>
-   
-  </header>     
+   <h1> IronSkydive </h1>
 
    <h2>Let the trip begin</h2>
 
-    <aside>
+    <aside class="quote">
       <i>"The best experience of our live"</i>
       <p>
         Ariel Quiñones & Gonzalo Manrique. Ironhack Founders
       </p>     
     </aside>
+   
+  </header>     
+
+   
 
 
   
-  <section1>
-    
-    <article>
+  <section1  id="informacion-general">
+    <main class="general">
+    <article >
     <h3>Hello!</h3>
-         <p> 
+         <p class="text"> 
          Welcome to IronSkydive, the best adventure  you will have.
         </p>
         <a href="#"> Learn More </a>
@@ -46,7 +52,7 @@
     
     <article>
     <h3>About us</h3>
-      <p>
+      <p class="text">
         We like a lot programming websites, but we also love to practice sport.
       </p>
       <a href="#"> Watch Video </a>
@@ -54,19 +60,20 @@
     
     <article>
     <h3> Wanna join?</h3>
-      <p>
+      <p class="text">
         Join our fitness program to be in good shape while learning
       </p>
       <a href="#"> Register </a>
     </article>
+  </main>
     
   </section1>
   
-  <section2>
+  <section2 id="estructura">
     <h3>How do we structure the day?</h3>
     
     <di>
-      <article> 
+      <article class="service-box"> 
 
         <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png"
         alt="Books, reference to learn"/>
@@ -78,7 +85,7 @@
         </p>
       </article>
       
-      <article>
+      <article class="service-box">
         <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png"
         alt="Self photo, reference to you as a person." />
 
@@ -89,7 +96,7 @@
         </p>
       </article>
       
-      <article>
+      <article class="service-box">
         <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png" alt="A plane, reference to the moment you go high">
 
 
@@ -99,7 +106,7 @@
         </p>
       </article>
       
-      <article>
+      <article class="service-box">
         <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png" alt="A parachute"/>
 
         <h4> 4.Jump! </h4>
@@ -111,16 +118,17 @@
     </div>
   </section2>
   
-  <section3>
+  <section3 id="equipo">
+    <main class="general">
     <div>
       <h3> Team </h3>
-      <p>
+      <p class="member-text">
         Our team collectivelyhas 75 years of experience. Odds are, when you jump out of the plane with these professionals, you won`t go splat
       </p>
       
       <article>
         <p>
-          <h4> Harold Rothstein </h4>
+          <h4 class="member-name"> Harold Rothstein </h4>
           <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg" alt="A picture of Harold Rothstein with his team in the sky"/>
         </p>
       </article>
@@ -141,73 +149,70 @@
       
       
     </div>
+  </main>
   </section3>
   
-  <section4>
+  <section4 id="horario">
     <h3>Schedule</h3>
-    <table>
-  <thead>
-    <tr>
-      <th>Time</th>
-      <th>Monday</th>
-      <th>Tuesday</th>
-      <th>Wednesdays</th>
-      <th>Thursday</th>
-      <th>Friday</th>
-      <th>Saturday</th>
-    </tr>
-  </thead>
+      <table>
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesdays</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+              <th>Saturday</th>
+            </tr>
+          </thead>
  
-    <tr>
-      <td>9:00 a 11:00</td>
-      <td></td>
-      <td>  </td>
-      <td> X </td>
-      <td>  </td>
-      <td> X </td>
-      <td> X </td>
-  
-    </tr>
-    <tr>
-      <td>12:00 a 14:00</td>
-      <td>  </td>
-      <td>  </td>
-      <td>  </td>
-      <td>  </td>
-      <td> X </td>
-      <td> X </td>
-     
-    </tr>
-    <tr>
-      <td>15:00 a 17:00</td>
-      <td>  </td>
-      <td>  </td>
-      <td> X </td>
-      <td> X </td>
-      <td> X </td>
-      <td> X </td>
-   
-    </tr>
-
-</table>
+            <tr>
+              <td>9:00 a 11:00</td>
+              <td></td>
+              <td>  </td>
+              <td> X </td>
+              <td>  </td>
+              <td> X </td>
+              <td> X </td>
+            </tr>
+            <tr>
+               <td>12:00 a 14:00</td>
+               <td>  </td>
+                <td>  </td>
+                <td>  </td>
+                <td>  </td>
+                <td> X </td>
+                <td> X </td>
+            </tr>
+            <tr>
+               <td>15:00 a 17:00</td>
+               <td>  </td>
+               <td>  </td>
+               <td> X </td>
+               <td> X </td>
+               <td> X </td>
+               <td> X </td>
+            </tr>
+      </table>
     
     <h3> Schedule a Time Slot </h3>
     
   </section4>
   
   
-    <footer>
+    <footer class="footer">
       <h5> Contact Information </h5>
       
-        <address>
+        <address class="address">
          IronSkydive<br> 33 Rue la Fayette,<br> 75009 París,<br> France<br> +33 (0) 619 193 088<br> 
         </br>
          </address>
       
       <ul>
-        <li><a href="https://twitter.com/skydivespain?lang=es" target="_blank">Twitter</a></li>
-        <li><a href="https://www.facebook.com/skydivespain/videos/" target="_blank">Facebook</a></li>
-        <li><a href="https://www.instagram.com/skydive_spain/?hl=es" target="_blank">Instagram</a></li>
+        <ul><a href="https://twitter.com/skydivespain?lang=es" target="_blank">Twitter</a></ul>
+        <ul><a href="https://www.facebook.com/skydivespain/videos/" target="_blank">Facebook</a></ul>
+        <ul><a href="https://www.instagram.com/skydive_spain/?hl=es" target="_blank">Instagram</a></ul>
       </ul>
       
     </footer>
