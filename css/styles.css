@@ -51,11 +51,10 @@ h5 {
 }
 
 .header {
-    background-image:url("../SkyDive.jpg") ;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 650px;
+    background-image: url("../SkyDive.jpg") ;
+     background-repeat: no-repeat;
+    background-size: cover ;
+    height: 650px;
 }
 .quote {
     font-size: 2.5em;
